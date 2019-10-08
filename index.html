@@ -18,25 +18,26 @@
         <link rel="shortcut icon" href="favicon.ico" />
     </head>
     <body class="disable-select" link="#eeeeee" vlink="#eeeeee" alink="#bdbdbd">
-        <h1 style="font-family: 'Kosugi Maru', sans-serif;">MapImageEngine: Converter<br>(MapImageEngine専用ファイル変換ツール)</h1>
+        <h1>MapImageEngine: Converter</h1>
+        <p style="font-family: 'Kosugi Maru', sans-serif;">(MapImageEngine専用ファイル変換ツール)</p>
         <hr align="center" width="100%" size="2" color="#9e9e9e" />
 
         <div id="upload" style="display: none">
         	<br><br>
             <form enctype="multipart/form-data">
-                <label>
+                <label  style="font-family: 'Kosugi Maru', sans-serif;">
                     幅:&nbsp;
                     <input id="upload.width" class="number-input" type="text" value="1" autocomplete="off" />
                 </label>
                 <br><br>
 
-                <label>
+                <label  style="font-family: 'Kosugi Maru', sans-serif;">
                     高さ:&nbsp;
                     <input id="upload.height" class="number-input" type="text" value="1" autocomplete="off" />
                 </label>
                 <br><br>
 
-                <label class="file-upload-label">
+                <label class="file-upload-label"  style="font-family: 'Kosugi Maru', sans-serif;">
                     <input type="file" name="image_upload" id="upload.image" onChange="processFile(this)" />
                     写真を選択する
                 </label>
@@ -44,15 +45,15 @@
         </div>
         <br>
 
-        <div id="progress" style="display: none">
+        <div id="progress" style="display: none"  style="font-family: 'Kosugi Maru', sans-serif;">
             変換中...
         </div>
 
-        <div id="success" class="success" style="display: none">
+        <div id="success" class="success" style="display: none"  style="font-family: 'Kosugi Maru', sans-serif;">
             写真の変換が完了しました！ダウンロードを開始します
         </div>
 
-        <div id="error" class="error">
+        <div id="error" class="error"  style="font-family: 'Kosugi Maru', sans-serif;">
             <noscript>
                 JavaScriptが有効化されていません！有効化してください
             </noscript>
